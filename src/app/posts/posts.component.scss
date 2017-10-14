@@ -1,0 +1,23 @@
+ul {
+  list-style: none;
+  padding: 0px;
+  li {
+    background-color: #434343;
+    color: white;
+    border: 1px solid;
+    margin-bottom: 10px;
+    h2 {
+      margin: 0px;
+      border-bottom: 1px solid black;
+    }
+    h2, p, .author {
+      padding: 0px 0px 0px 5px;
+    }
+    .author {
+      font-style: italic;
+    }
+  }
+}
+/deep/ .highlight {
+  color: yellow;
+}

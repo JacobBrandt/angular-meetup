@@ -1,0 +1,18 @@
+<div [formGroup]="form">
+  <label>Search</label>
+  <input formControlName="search"/>
+  <span>{{filteredPosts.length}} found</span>
+</div>
+<ul>
+  <li *ngFor="let post of filteredPosts">
+    <h2 [innerHTML]="post.title | highlight:search"></h2>
+    <div *ngIf="post.userId === 1; else normalUser">
+      <div appBurning="high" class="author">{{post.userId}}</div>
+      <p appBurning [innerHTML]="post.body | highlight:search"></p>
+    </div>
+    <ng-template #normalUser>
+      <div class="author">{{post.userId}}</div>
+      <p [innerHTML]="post.body | highlight:search"></p>
+    </ng-template>
+  </li>
+</ul>
