@@ -4,7 +4,7 @@
 * At Bat - Routing & Navigation
   * Routes, Guards, Router Outlet, Router State, Routing Module
 * On Deck - Material Design
-  * A look at using Angular Material Design components and how to setup proper themeing
+  * A look at using Angular Material Design components and how to setup proper theming
 * In The Hole - Forms
   * Template Driven, Reactive, Validation
 
