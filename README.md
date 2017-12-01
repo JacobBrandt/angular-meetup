@@ -1,8 +1,12 @@
 # Meetup
 * [Oct 13th - Angular Architecture](https://github.com/JacobBrandt/angular-meetup/tree/10.13.17)
   * Modules, Components, Directives, Pipes, Services & Dependency Injection
-* Next Meetup - Routing & Navigation
+* At Bat - Routing & Navigation
   * Routes, Guards, Router Outlet, Router State, Routing Module
+* On Deck - Material Design
+  * A look at using Angular Material Design components and how to setup proper themeing
+* In The Hole - Forms
+  * Template Driven, Reactive, Validation
 
 ## Angular CLI
 
